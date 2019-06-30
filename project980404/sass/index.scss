@@ -1,0 +1,27 @@
+*{
+    direction: rtl;
+    // text-align: right;
+    font-family: vazir;
+}
+.box-shadow{
+  box-shadow: 0.25rem.75rem rgba(74, 11, 133, 0.05)
+}
+.jumbotron .container{
+    max-width: 40rem;
+}
+.jumbotron-heading{
+    font-weight: 300;
+}
+.jumbotron p:last-child{
+    margin-bottom: 0px;
+}
+@media(min-width:768px){
+    .jumbotron{
+        padding-top:6rem;
+        padding-bottom: 6rem; 
+    }
+}
+.card{
+    overflow: hidden;
+    border-radius: 10%;
+}
